@@ -1,0 +1,45 @@
+@keyframes slideinfromleft{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes slideinfromright{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes slideinfromtop{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+
+}
+@keyframes slideinfrombottom{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+
+}
+
+.showcse-text{
+    animation: slideinfromright 1s ease-in;
+}
+.showcse-image{
+    animation: slideinfromleft 1s ease-in;
+}
